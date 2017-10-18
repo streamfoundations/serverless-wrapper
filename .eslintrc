@@ -1,0 +1,29 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "rules": {
+    "object-curly-newline": 0,
+    "newline-after-var": ["error", "always"],
+    "no-underscore-dangle": 0,
+    "spaced-comment": 0,
+    "no-console": 0,
+    "id-length": 0,
+    "no-nested-ternary": 1,
+//    "no-use-before-define": 0,
+    "space-before-function-paren": 0,
+    "max-len": 0,
+    "consistent-return": 0,
+    "newline-per-chained-call": 0,
+    "global-require": 0,
+    "import/no-extraneous-dependencies": 0,
+    "no-plusplus": 0,
+    "arrow-parens": ["error", "always"],
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "never",
+      "exports": "never",
+      "functions": "never"
+    }]
+  }
+}
